@@ -1,13 +1,13 @@
 /**
- * function that takes a list of 10 matches and returns the total points in championship
- * each match is represented by string "x:y", x is team's score, y opponents score
- * if win (x>y), 3 points
- * if lose (x<y), 0 points
- * if tie, (x=y), 1 point
- * 
- * range of number for x and y is 0 - 4
- * 
- * 
+ function that takes a list of 10 matches and returns the total points in championship
+ each match is represented by string "x:y", x is team's score, y opponents score
+    if win (x>y), 3 points
+    if lose (x<y), 0 points
+    if tie, (x=y), 1 point
+ 
+ range of number for x and y is 0 - 4
+ 
+ 
  */
 
 // export function points(games : string[]) {
