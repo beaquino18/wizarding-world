@@ -1,5 +1,5 @@
 export class Kata {
-    public static bonusTime(salary:number, bonus:boolean):string {
+    public static bonusTime(salary:number, bonus:boolean) {
       if (bonus === true) {
         console.log(`£ ${salary * 10}`);
       } else {
